@@ -5,4 +5,11 @@
     <bean id="memberService" class="hello.core.member.MemberServiceImpl">
         <constructor-arg name="memberRepository" ref="memberRepository" /> </bean>
     <bean id="memberRepository" class="hello.core.member.MemoryMemberRepository"/>
+
+    <bean id="orderService" class="hello.core.member.MemberRepository">
+        <constructor-arg name="memberRepository" ref="memberRepository"/>
+        <constructor-arg name="discountPlicy" ref="discountPolicy"/>
+    </bean>
+
+    <bean id ="discountPolicy" class="hello.core.discount.RateDiscountPolicy"/>
 </beans>
