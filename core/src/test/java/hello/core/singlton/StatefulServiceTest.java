@@ -28,7 +28,7 @@ class StatefulServiceTest {
         Assertions.assertThat(statefulService1.getPrice()).isEqualTo(20000);
         //공부를 열심히 해야 하는데 강의를 안들은지 얼마나 오렌지
         //이제 메인 프로
-        //새해에는 개발자길을 걷자
+        //새해에
     }
 
     static class TestConfig {
