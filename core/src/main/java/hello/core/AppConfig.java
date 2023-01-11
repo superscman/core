@@ -25,7 +25,7 @@ public class AppConfig {
         return new MemoryMemberRepository();
     }
     @Bean
-    public OrderService orderService() { //스프링
+    public OrderService orderService() { //스프링 언제
 
         System.out.println("call AppConfig.orderService");
         return new OrderServiceImpl(MemberRepository(),discountPolicy());
