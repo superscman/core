@@ -31,7 +31,7 @@ public class AppConfig {
         return new OrderServiceImpl(MemberRepository(),discountPolicy());
     }
     @Bean
-    public DiscountPolicy discountPolicy() {
+    public DiscountPolicy discountPolicy() { //좋은 기업 될놈될!!!!
 //        return new FixDiscountPolicy();
         return new RateDiscountPolicy();
     }
