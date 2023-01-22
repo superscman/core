@@ -36,4 +36,5 @@ public class AppConfig {
         return new RateDiscountPolicy();
     }
 
+    // 자바공부
 }
