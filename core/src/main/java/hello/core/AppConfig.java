@@ -37,4 +37,5 @@ public class AppConfig {
     }
 
     // 자바공부
+    // 코딩테스트 공부(알고리즘)
 }
